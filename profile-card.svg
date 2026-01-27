@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 820" width="900" height="820">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { box-sizing: border-box; }
+        .root { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0d1117; padding: 0; margin: 0; width: 900px; min-height: 820px; }
+        .main-tbl { width: 100%; border-collapse: collapse; border: none; margin-bottom: 20px; }
+        .main-tbl td { border: none; vertical-align: top; }
+        .cell-tech { width: 42%; }
+        .cell-gap { width: 2%; }
+        .cell-right { width: 56%; }
+        .card-tech { border: 2px solid #fe428e; border-radius: 20px; background: #141321; overflow: hidden; height: 100%; }
+        .card-tech-header { background: #fe428e; color: #a9fef7; padding: 10px 0; font-weight: bold; letter-spacing: 0.15em; text-align: center; }
+        .card-tech-body { padding: 20px; text-align: center; }
+        .section-label { font-size: 0.75em; letter-spacing: 0.1em; color: #a9fef7; margin-bottom: 6px; font-weight: bold; }
+        .divider { width: 50%; border-top: 1px solid rgba(169,254,247,0.2); margin: 16px auto; }
+        .card-about { border: 2px solid #a9fef7; border-radius: 20px; background: #141321; padding: 48px 28px; text-align: center; }
+        .card-about h3 { margin: 0 0 24px; letter-spacing: 0.15em; color: #a9fef7; font-size: 1.2em; }
+        .card-about p { line-height: 2.1; font-size: 1em; margin: 0; word-break: keep-all; color: #f8f8f2; }
+        .about-strong { display: block; font-size: 1.35em; color: #fe428e; margin-bottom: 18px; letter-spacing: 0.04em; }
+        .about-quote { display: block; font-size: 1.12em; color: #a9fef7; margin-bottom: 15px; font-style: italic; }
+        .about-desc { font-size: 0.95em; opacity: 0.92; }
+        .contact-gap { height: 12px; }
+        .inner-tbl { width: 100%; border-collapse: collapse; }
+        .inner-tbl td { border: none; }
+        .card-contact { border: 2px solid #fe428e; border-radius: 20px; padding: 45px 10px; background: rgb(169, 236, 254); text-align: center; }
+        .card-portfolio { border: 2px solid #a9fef7; border-radius: 20px; padding: 45px 10px; background: #fe428e; text-align: center; }
+        .card-label { font-size: 0.9em; letter-spacing: 0.1em; margin-bottom: 12px; font-weight: 800; }
+        .card-contact .card-label { color: #fe428e; }
+        .card-portfolio .card-label { color: #a9fef7; }
+        .card-contact a, .card-portfolio a { color: inherit; }
+        .stats-wrap { padding-top: 20px; }
+        .card-stats { width: 100%; border: 2px solid #fe428e; border-radius: 20px; padding: 40px 20px; background: #141321; text-align: center; }
+        .card-stats-title { margin-bottom: 30px; font-weight: bold; font-size: 1.2em; letter-spacing: 0.15em; color: #fe428e; }
+        .stats-tbl { width: 100%; border-collapse: collapse; }
+        .stats-tbl td { border: none; vertical-align: middle; }
+        .stats-divider { width: 2px; height: 140px; background: linear-gradient(to bottom, transparent, #fe428e, #a9fef7, transparent); }
+        .icon-img { height: 35px; display: block; margin: 0 auto; }
+        .badge-img { height: 40px; display: inline-block; }
+      </style>
+      <table class="main-tbl root">
+        <tr>
+          <td class="cell-tech" rowspan="2">
+            <div class="card-tech">
+              <div class="card-tech-header">&#128296; TECH STACK</div>
+              <div class="card-tech-body">
+                <div class="section-label">FRONTEND</div>
+                <img class="icon-img" src="https://skillicons.dev/icons?i=html,css,sass,js,jquery,bootstrap,tailwind" alt="Frontend" />
+                <div class="divider"></div>
+                <div class="section-label">BACKEND</div>
+                <img class="icon-img" src="https://skillicons.dev/icons?i=java,spring,mysql" alt="Backend" />
+                <div class="divider"></div>
+                <div class="section-label">DESIGN &amp; VIDEO</div>
+                <img class="icon-img" src="https://skillicons.dev/icons?i=figma,xd,ps,ai,pr,ae" alt="Design" />
+                <div class="divider"></div>
+                <div class="section-label">TOOLS &amp; DEV</div>
+                <img class="icon-img" src="https://skillicons.dev/icons?i=vscode,idea,git,github,npm,postman" alt="Tools" />
+                <div class="divider"></div>
+                <div class="section-label">COLLABORATION</div>
+                <img class="icon-img" src="https://skillicons.dev/icons?i=notion,discord" alt="Collab" />
+              </div>
+            </div>
+          </td>
+          <td class="cell-gap"></td>
+          <td class="cell-right">
+            <div class="card-about">
+              <h3>&#128075; ABOUT ME</h3>
+              <p>
+                <strong class="about-strong">??? · ?? ?? · ??? ??</strong>
+                <span class="about-quote">"???? ??? ??? ??? ???? ?????."</span>
+                <span class="about-desc">??? ???? ?? ??? ???, ??? ? ??? ?? ???? ??? ???? ????. ???? ???? ????, ?? ????? ????? ???? ???? ??? ?? ??? ???????.</span>
+              </p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="cell-gap"></td>
+          <td class="cell-right">
+            <div class="contact-gap"></div>
+            <table class="inner-tbl">
+              <tr>
+                <td style="width:48%">
+                  <div class="card-contact">
+                    <div class="card-label">CONTACT</div>
+                    <a href="mailto:gsune@kakao.com"><img class="badge-img" src="https://img.shields.io/badge/Gmail-EA4335?style=flat&amp;logo=gmail&amp;logoColor=white" alt="Gmail" /></a>
+                  </div>
+                </td>
+                <td style="width:4%"></td>
+                <td style="width:48%">
+                  <div class="card-portfolio">
+                    <div class="card-label">PORTFOLIO</div>
+                    <a href="https://gsun-portfolio.notion.site/Web-Publisher-2f07bd4672c580b8be2dc1c9fd6a3121?source=copy_link"><img class="badge-img" src="https://img.shields.io/badge/Notion-ffffff?style=flat&amp;logo=notion&amp;logoColor=000000" alt="Notion" /></a>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" class="stats-wrap">
+            <div class="card-stats">
+              <div class="card-stats-title">&#128202; GITHUB STATS</div>
+              <table class="stats-tbl">
+                <tr>
+                  <td style="width:48%;text-align:center"><img src="https://github-readme-stats.vercel.app/api?username=kimgsun&amp;show_icons=true&amp;theme=radical&amp;hide_border=true" height="165" alt="GitHub stats" /></td>
+                  <td style="width:4%;text-align:center"><div class="stats-divider"></div></td>
+                  <td style="width:48%;text-align:center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kimgsun&amp;layout=compact&amp;theme=radical&amp;hide_border=true" height="165" alt="Top languages" /></td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </foreignObject>
+</svg>
