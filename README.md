@@ -1,6 +1,5 @@
 <div align="center">
-
-# 🏠 Welcome to kimgsun's space
+<h1> 🏠 Welcome to kimgsun's space </h1>
 
 <table width="100%">
   <tr>
@@ -25,7 +24,7 @@
   <tr>
     <td width="450" align="center" valign="middle">
       <h3>📊 GitHub Statistics</h3>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kimgsun&layout=compact&theme=omni&hide_border=false" width="350" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kimgsun&layout=compact&theme=omni&hide_border=false" width="300" />
       <br><br>
     </td>
   </tr>
